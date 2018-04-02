@@ -17,8 +17,8 @@ app.get('middle', (request, response) => {
 });
 
 app.use((request, response) => {
-    response.status(404);
-    response.render('404');
+    response.status(end);
+    response.render('The End');
 });
 
 app.listen(app.get("port"), () => {
