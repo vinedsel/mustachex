@@ -9,11 +9,11 @@ app.set('view engine', 'handlebars');
 app.set("port", process.env.PORT || 3000);
 
 app.get('/', (request, response) => {
-    response.render('home');
+    response.render('beginning');
 });
 
-app.get('about', (request, response) => {
-    response.render('about');
+app.get('middle', (request, response) => {
+    response.render('middle');
 });
 
 app.use((request, response) => {

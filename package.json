@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/vinedsel/mustachex#readme",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {}
 }
